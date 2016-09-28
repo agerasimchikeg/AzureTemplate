@@ -97,7 +97,11 @@
       "name": "[variables('publicIPAddressName')]",
       "location": "[resourceGroup().location]",
       "properties": {
-        "publicIPAllocationMethod": "[variables('publicIPAddressType')]"
+        "publicIPAllocationMethod": "[variables('publicIPAddressType')]",
+		"dnsSettings": {
+         "domainNameLabel": "xeroxdemo1",
+         "fqdn": "xeroxdemo1.centralus.cloudapp.azure.com"
+      }
       }
     },
     {
