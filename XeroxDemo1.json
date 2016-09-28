@@ -37,7 +37,7 @@
     "subnetName": "Subnet",
     "subnetPrefix": "10.0.0.0/24",
     "publicIPAddressName": "XeroxDemoIP1",
-    "publicIPAddressType": "Reserved",
+    "publicIPAddressType": "Static",
     "virtualNetworkName": "specializedVMVNET1",
     "vnetID": "[resourceId('Microsoft.Network/virtualNetworks',variables('virtualNetworkName'))]",
     "subnetRef": "[concat(variables('vnetID'),'/subnets/',variables('subnetName'))]",
