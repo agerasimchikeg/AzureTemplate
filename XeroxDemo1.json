@@ -98,6 +98,7 @@
       "location": "[resourceGroup().location]",
       "properties": {
         "publicIPAllocationMethod": "[variables('publicIPAddressType')]",
+		"ipAddress": "13.67.209.5",
 		"dnsSettings": {
          "domainNameLabel": "xeroxdemo1",
          "fqdn": "xeroxdemo1.centralus.cloudapp.azure.com"
