@@ -36,7 +36,7 @@
     "addressPrefix": "10.0.0.0/16",
     "subnetName": "Subnet",
     "subnetPrefix": "10.0.0.0/24",
-    "publicIPAddressName": "XeroxDemoIP1",
+    "publicIPAddressName": "XeroxDemoIP2",
     "publicIPAddressType": "Static",
     "virtualNetworkName": "specializedVMVNET1",
     "vnetID": "[resourceId('Microsoft.Network/virtualNetworks',variables('virtualNetworkName'))]",
@@ -98,7 +98,6 @@
       "location": "[resourceGroup().location]",
       "properties": {
         "publicIPAllocationMethod": "[variables('publicIPAddressType')]",
-		"ipAddress": "13.67.209.5",
 		"dnsSettings": {
          "domainNameLabel": "xeroxdemo2",
          "fqdn": "xeroxdemo2.centralus.cloudapp.azure.com"
