@@ -4,7 +4,7 @@
   "parameters": {
     "osDiskVhdUri": {
       "type": "string",
-	  "defaultValue": "https://xeroxdemo1.blob.core.windows.net/vhds/XeroxDemo.vhd",
+	  "defaultValue": "https://xeroxdemo1ssd.blob.core.windows.net/vhds/XeroxDemo.vhd",
       "metadata": {
         "description": "Uri of the existing VHD"
       }
@@ -18,7 +18,7 @@
     },
     "vmSize": {
       "type": "string",
-      "defaultValue": "Basic_A3",
+      "defaultValue": "Standard_F4s",
       "metadata": {
         "description": "Size of the VM"
       }
